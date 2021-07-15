@@ -16,8 +16,7 @@ mkdir
 # 5 - What output would you expect when you run the command 'ls' in an empty
 folder? What about a folder containing files?
 In an empty folder, a new line will appear that has nothing in it. In a folder
-that contains
-files it will list the files.
+that contains files it will list the files.
 
 # 6 - What is a quick way to create a new file?
 the 'touch' command
@@ -34,4 +33,4 @@ This command adds everything in the working directory to git as tracked and
 stages changes to be committed
 
 # 10 - What is the command to push your committed changes to your repo on GitHub?
-git push
+git push -u origin master
