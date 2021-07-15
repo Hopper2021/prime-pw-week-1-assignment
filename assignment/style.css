@@ -9,3 +9,51 @@
 /* Put a border around your image */
 
 /* Change the font-family of your list */
+
+header {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  width: 60%;
+  background-color: #5e9e4d;
+  padding: 10px;
+}
+body {
+  background-color: #c8d4c5;
+}
+.military {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 30%;
+  border-radius: 10%;
+  border-color: black;
+  border-width: 10px;
+  border-style: inset;
+}
+h3 {
+  text-align: center;
+}
+.list {
+  display: flex;
+  justify-content: center;
+  font-family: cursive;
+  list-style-position: inside;
+  margin-top: 30px;
+}
+p {
+  font-style: italic;
+  color: blue;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  width: 60%;
+  background-color: #5e9e4d;
+  padding: 10px;
+}
